@@ -1,3 +1,5 @@
 tasks:
   - name: Python libraries
     init: python -m pip install tensorflow
+  - name: UnMicst reference
+    init: docker pull labsyspharm/unmicst:2.7.0
